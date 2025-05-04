@@ -1,52 +1,67 @@
-# Backend Assessment - Auction API
+# 🏷️ Auction API - Backend Assessment
 
-## Objective
-
-Build a RESTful API for a simple Auction System.
+This is a Django REST Framework (DRF) based RESTful API for a simple Auction System. It supports user registration, auction listing, bidding, and admin functionalities.
 
 ---
 
-## Requirements
+## 🚀 Features
 
-- User registration and authentication.
-- Users can create auctions:
-  - Title
-  - Description
-  - Starting price
-  - Auction start and end time
-- Users can bid on open auctions.
-- Highest bid wins after the auction ends.
-- Admin can view and delete auctions.
-  
----
-
-## Technical Specifications
-
-- Django 4.x + Django REST Framework
-- SQLite or PostgreSQL
-- JWT Authentication 
-- Django models and migrations
-- Secure all endpoints appropriately
-- Unit tests for core functionality
-- API documentation (Swagger/OpenAPI preferred)
+- User Registration & Authentication (JWT)
+- Create and manage Auctions
+- Bid on live auctions
+- Admin controls for managing auctions and bids
+- Secure endpoints
+- Unit tests and Swagger API documentation
 
 ---
 
-## Bonus Points
+## 🛠️ Tech Stack
 
-- Background task to automatically close auctions (e.g., Celery).
-- Dockerize the application.
+- asgiref==3.8.1
+- Django==5.2
+- djangorestframework==3.16.0
+- djangorestframework_simplejwt==5.5.0
+- drf-yasg==1.21.10
+- inflection==0.5.1
+- packaging==25.0
+- PyJWT==2.9.0
+- pytz==2025.2
+- PyYAML==6.0.2
+- sqlparse==0.5.3
+- uritemplate==4.1.1
 
 ---
 
-## Expected Deliverables
+## 📦 Project Setup Instructions
 
-- Working Django project
-- Clear setup instructions (`README.md`)
-- API Documentation
+```bash
+### 1. Clone the repository
+git clone https://github.com/william-4/backend-engineer-assessment/tree/main/backend-assessment
+cd backend-assessment
+
+### 2. Create a virtual environment and activate it
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Apply database migrations
+python manage.py makemigrations
+python manage.py migrate
+
+### 5. Create a superuser for admin access
+python manage.py createsuperuser
+
+### 6. Run the development server
+python manage.py runserver
+
+### 7. Access the API
+- Swagger UI: http://127.0.0.1:8000/swagger/
+
+### 8. Run tests
+python manage.py test
+```
 
 ---
 
-
-
-`
