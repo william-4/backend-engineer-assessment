@@ -1,6 +1,6 @@
 # Auction API - Backend Assessment
 
-This is a Django REST Framework (DRF) based RESTful API for a simple Auction System. It supports user registration, auction listing, bidding, and admin functionalities.
+This is a Django REST Framework (DRF) based RESTful API for a simple Auction System. It supports user registration, auction listing, bidding and admin functionalities.
 
 ---
 
