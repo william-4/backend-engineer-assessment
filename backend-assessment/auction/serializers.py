@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from .models import Auction, Bid
 
 class UserSerializer(serializers.ModelSerializer):
+    """Serializer for the user model"""
     class Meta:
         model = User
         fields = ['id', 'username', 'email']
