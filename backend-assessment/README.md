@@ -1,10 +1,10 @@
-# 🏷️ Auction API - Backend Assessment
+# Auction API - Backend Assessment
 
 This is a Django REST Framework (DRF) based RESTful API for a simple Auction System. It supports user registration, auction listing, bidding, and admin functionalities.
 
 ---
 
-## 🚀 Features
+## Features
 
 - User Registration & Authentication (JWT)
 - Create and manage Auctions
@@ -15,7 +15,7 @@ This is a Django REST Framework (DRF) based RESTful API for a simple Auction Sys
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - asgiref==3.8.1
 - Django==5.2
@@ -32,7 +32,7 @@ This is a Django REST Framework (DRF) based RESTful API for a simple Auction Sys
 
 ---
 
-## 📦 Project Setup Instructions
+## Project Setup Instructions
 
 ```bash
 ### 1. Clone the repository
